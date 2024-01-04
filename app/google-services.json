@@ -1,33 +1,62 @@
 {
   "project_info": {
-    "project_number": "864960182493",
-    "project_id": "myproj-d1fd7",
-    "storage_bucket": "myproj-d1fd7.appspot.com"
+    "project_number": "88968519859",
+    "project_id": "crypto-app-124af",
+    "storage_bucket": "crypto-app-124af.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:864960182493:android:d65c51cae9f0ec814dc334",
+        "mobilesdk_app_id": "1:88968519859:android:1345f6852e81fb7c58d0c6",
         "android_client_info": {
-          "package_name": "com.pscollab.finmarkets"
+          "package_name": "com.brainjames.cryptomarkettracker"
         }
       },
       "oauth_client": [
         {
-          "client_id": "864960182493-ritor7e1d48j9p20l6hkag94a60kaok0.apps.googleusercontent.com",
+          "client_id": "88968519859-glbq0rbnh8dm70etejgulj2t8cra3e2d.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEVXUppk0nC8eU5IBP3jL2z9GV1nWzWSM"
+          "current_key": "AIzaSyAMZv4Y5zfEWJgmVJhT7DQP3RkqWT2XWzw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "864960182493-ritor7e1d48j9p20l6hkag94a60kaok0.apps.googleusercontent.com",
+              "client_id": "88968519859-glbq0rbnh8dm70etejgulj2t8cra3e2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88968519859:android:ab94d7b6ef8bd28a58d0c6",
+        "android_client_info": {
+          "package_name": "com.crypto.tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88968519859-glbq0rbnh8dm70etejgulj2t8cra3e2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMZv4Y5zfEWJgmVJhT7DQP3RkqWT2XWzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88968519859-glbq0rbnh8dm70etejgulj2t8cra3e2d.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -36,5 +65,4 @@
     }
   ],
   "configuration_version": "1"
-}
 }
