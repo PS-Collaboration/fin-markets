@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.binarybricks.coinbit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".CoinBitApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".features.launch.LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="open"
+                    android:scheme="coinhood" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".features.HomeActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".features.coindetails.CoinDetailsPagerActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".features.HomeActivity" />
+        <activity
+            android:name=".features.newslist.NewsListActivity"
+            android:parentActivityName=".features.coindetails.CoinDetailsPagerActivity" />
+        <activity
+            android:name=".features.transaction.CoinTransactionActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".features.exchangesearch.ExchangeSearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".features.pairsearch.PairSearchActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".features.coinsearch.CoinSearchActivity"
+            android:label="@string/search_coin"
+            android:parentActivityName=".features.HomeActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".features.coindetails.CoinDetailsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".features.coinsearch.CoinSearchActivity" />
+        <activity
+            android:name=".features.ticker.CoinTickerActivity"
+            android:parentActivityName=".features.coindetails.CoinDetailsPagerActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2462617926038936~9295877573"/>
+
+    </application>
+
+</manifest>
