@@ -17,7 +17,7 @@
     <string name="amountMillion">%1$s Million</string>
     <string name="amountBillion">%1$s Billion</string>
 
-    <string name="period_1h">12H</string>
+    <string name="period_1h">1H</string>
     <string name="period_1day">1D</string>
     <string name="period_1week">1W</string>
     <string name="period_1month">1M</string>

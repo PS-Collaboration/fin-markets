@@ -166,7 +166,7 @@ class CoinDashboardFragment : Fragment(), CoinDashboardContract.View {
     private fun getAllWatchedCoinsPrice() {
 
         // get news
-        coinDashboardPresenter.getLatestNewsFromCryptoCompare()
+//        coinDashboardPresenter.getLatestNewsFromCryptoCompare()
 
         // cryptocompare support only 100 coins in 1 shot. For safety we will support 95 and paginate
         val chunkWatchedList: List<List<WatchedCoin>> = watchedCoinList.chunked(95)
